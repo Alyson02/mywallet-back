@@ -11,7 +11,7 @@ export async function signup(req, res) {
   } catch (error) {
     console.log(error);
     res.send({
-      message: "Errou ao cadastrar",
+      message: "Singup error",
       exception: error,
       success: false,
     });
@@ -38,7 +38,7 @@ export async function signin(req, res) {
   } catch (error) {
     console.log(error);
     res.send({
-      message: "Errou ao logar",
+      message: "Login error",
       exception: error,
       success: false,
     });
